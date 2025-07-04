@@ -56,7 +56,7 @@ async fn main() -> std::io::Result<()> {
             .route("/generate/{length}", web::get().to(generate))
             .route("/generate_chunk", web::get().to(generate_chunk))
     })
-    .bind("127.0.0.1:8080")?
+    .bind("0.0.0.0:8080")?
     .run()
     .await
 }

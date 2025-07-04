@@ -2,8 +2,9 @@
 
 export LC_NUMERIC="en_US.UTF-8"  # Force dot as decimal separator
 
-# Parameters
-url="http://127.0.0.1:8080/generate/100000000"
+# Parameters 
+# url="http://127.0.0.1:8080/generate/100000000"
+url="http://34.147.75.203:8080/generate/100000000"
 echo "Testing download from: $url"
 
 # Run curl and get time and size

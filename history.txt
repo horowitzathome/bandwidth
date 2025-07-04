@@ -1,0 +1,41 @@
+ 1  git
+    2  sudo apt update
+    3  sudo apt -y install git
+    4  git --version
+    5  mkdir Rust
+    6  cd Rust
+    7  git clone git@github.com:horowitzathome/bandwidth.git
+    8  ls
+    9  git clone https://github.com/horowitzathome/bandwidth.git
+   10  ls
+   11  udo apt install -y curl build-essential
+   12  udo apt install  curl build-essential
+   13  sudo apt install -y curl build-essential
+   14  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   15  source $HOME/.cargo/env
+   16  cargo
+   17  cargo -V
+   18  cd bandwidth/
+   19  cargo build -- release
+   20  cargo build --release
+   21  cargo run --release
+   22  cd Rust
+   23  cd be
+   24  cd bandwidth/
+   25  cargo run --release
+   26  ps -ef | grep ban
+   27  kill -f 1006
+   28  kill -f 1015
+   29  ps -ef | grep ban
+   30  cargo run --release
+   31  top
+   32  ps
+   33  ps -ef
+   34  ps -ef | grep carg
+   35  ps -ef | grep ban
+   36  ps aux
+   37  ps aux | grep ban
+   38  kill -9 1015
+   39  ps aux | grep ban
+   40  cargo run --release
+   41  history
